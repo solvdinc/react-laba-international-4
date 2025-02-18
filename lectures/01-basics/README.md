@@ -2,9 +2,9 @@
 
 Concepts such as URL, DNS, TCP, HTTP will be introduced here.
 
-[Presentation]()
+[Presentation](https://solvdportal.sharepoint.com/:p:/s/GoogleDriveSolvdLABA/ESCsTp-BkkZLmOZLJyRdkioBxqi6JM73NBcIgbJlKyHOVw?e=TEBpFN)
 
-[Video]()
+[Video](https://solvdportal-my.sharepoint.com/:v:/r/personal/laba_solvd_com/Documents/Recordings/Development-React.js-2025-01-20250218_140435-Meeting%20Recording.mp4?csf=1&web=1&e=Up5D8c&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Useful links
 
