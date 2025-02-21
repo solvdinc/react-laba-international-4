@@ -2,7 +2,7 @@
 
 Here's you can find materials about Git
 
-[Presentation](https://solvdportal.sharepoint.com/:p:/r/sites/GoogleDriveSolvdLABA/_layouts/15/Doc.aspx?sourcedoc=%7B146EE929-3B7D-42DB-B174-E9361992E50E%7D&file=Git%20basics%20slides.pptx&action=edit&mobileredirect=true)
+[Presentation](https://solvdportal.sharepoint.com/:p:/s/GoogleDriveSolvdLABA/ESnpbhR9O9tCsXTpNhmS5Q4BmmSmk2_mxValG6am0zTyUQ)
 
 [Video](https://solvdportal-my.sharepoint.com/personal/laba_solvd_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Flaba%5Fsolvd%5Fcom%2FDocuments%2FRecordings%2FDevelopment%2DReact%2Ejs%2D2025%2D01%2D20250221%5F150315%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2d9440a3%2D5430%2D4d6d%2Da104%2D2bc314a3c9b9)
 
