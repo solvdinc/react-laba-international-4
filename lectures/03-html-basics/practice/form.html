@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <body>
+      <!-- The form element is a container for different types of input elements -->
+      <form action="/submit_form" method="post">
+        <!-- The input element with type="text" defines a one-line input field that a user can enter text into. -->
+        <label for="fname">First name:
+          <input type="text" id="fname" name="fname" placeholder="Type your name here..." />
+        </label>
+
+        <!-- The input element with type="password" defines a one-line input field that masks the user's input. -->
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" placeholder="Type your password here..."/><br />
+
+        <!-- The input element with type="radio" defines a circular selection button in a form. -->
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+
+        <!-- The input element with type="checkbox" defines a checkbox. -->
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+
+        <!-- The input element with type="email" is used for input fields that should contain an e-mail address. -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+        <!-- The input element with type="date" is used for input fields that should contain a date. -->
+        <label for="bday">Birthday:</label><br />
+        <input type="date" id="bday" name="bday" /><br />
+
+        <!-- The input element with type="file" is used for file upload buttons. -->
+        <label for="myfile">Upload a file:</label><br />
+        <input type="file" id="myfile" name="myfile" /><br />
+
+        <!-- The input element with type="number" is used for input fields that should contain numeric input. -->
+        <label for="quantity">Quantity (between 1 and 5):</label><br />
+        <input
+          type="number"
+          id="quantity"
+          name="quantity"
+          min="1"
+          max="5"
+        /><br />
+
+        <!-- The input element with type="range" is used for input fields that should contain a range of numbers. -->
+        <label for="points">Points (between 0 and 100):</label><br />
+        <input type="range" id="points" name="points" min="0" max="100" /><br />
+
+        <!-- The input element with type="url" is used for input fields that should contain a URL. -->
+        <label for="homepage">Homepage:</label><br />
+        <input type="url" id="homepage" name="homepage" /><br />
+
+        <!-- The input element with type="color" is used for input fields that should contain a color. -->
+        <label for="favcolor">Select your favorite color:</label><br />
+        <input type="color" id="favcolor" name="favcolor" /><br />
+
+        <!-- The input element with type="search" is used for search fields. -->
+        <label for="gsearch">Search Google:</label><br />
+        <input type="search" id="gsearch" name="gsearch" /><br />
+
+        <!-- The input element with type="tel" is used for input fields that should contain a telephone number. -->
+        <label for="phone">Enter your phone number:</label><br />
+        <input type="tel" id="phone" name="phone" /><br />
+
+        <!-- The input element with type="time" is used for input fields that should contain a time (hours and minutes). -->
+        <label for="appt">Select a time:</label><br />
+        <input type="time" id="appt" name="appt" /><br />
+
+        <!-- The input element with type="week" is used for input fields that should contain a week and year. -->
+        <label for="week">Select a week:</label><br />
+        <input type="week" id="week" name="week" /><br />
+
+        <!-- The input element with type="month" is used for input fields that should contain a month and year. -->
+        <label for="month">Select a month:</label><br />
+        <input type="month" id="month" name="month" /><br />
+
+        <!-- The label element defines a label for several elements -->
+        <label for="country">Country:</label><br />
+        <!-- The select element is used to create a drop-down list -->
+        <select id="country" name="country">
+          <!-- The option elements define the available options for the drop-down list -->
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option></select
+        ><br />
+
+        <!-- The textarea element defines a multi-line input field -->
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea><br />
+
+        <!-- The fieldset element is used to group related data in a form -->
+        <fieldset>
+          <!-- The legend element defines a caption for the fieldset element -->
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br />
+        </fieldset>
+        <br />
+
+        <!-- The datalist element specifies a list of pre-defined options for an input element -->
+        <label for="browsers">Choose a browser from this list:</label><br />
+        <input list="browsers" name="browser" id="browser" /><br />
+        <datalist id="browsers">
+          <option value="Internet Explorer"></option>
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option></datalist
+        ><br />
+
+        <!-- The optgroup element is used to group related options in a drop-down list -->
+        <label for="cars">Select a car:</label><br />
+        <select id="cars" name="cars">
+          <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup></select
+        ><br />
+
+        <!-- The input element with type="submit" defines a button for submitting the form data to a form-handler. -->
+        <input type="submit" value="Submit" />
+      </form>
+    </body>
+  </body>
+</html>

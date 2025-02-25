@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-------------------------- COMMON BEST PRACTICES ----------------------->
+    <!-- HTML semantic elements mark up the structure of a document in a more meaningful way on a webpage.
+    It is best practice to use HTML semantic elements for the proper assembly of your web page.
+    Avoid using <divs> in place of HTML semantics. Do not use <div> elements to show headers and footers on your web page.
+    Use semantic <header> and <footer> elements instead. -->
+    <!-- FIRST DON'T -->
+    <div id="header">
+      <div id="logo">My Website</div>
+      <div id="navigation">
+        <div>Home</div>
+        <div>About</div>
+        <div>Contact</div>
+      </div>
+    </div>
+    <div id="main-content">
+      <div id="article">
+        <div id="title">Article Title</div>
+        <div id="content">Article Content</div>
+      </div>
+    </div>
+    <div id="footer">Footer Content</div>
+
+    <!-- DO -->
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Article Title</h2>
+        <p>Article Content</p>
+      </article>
+    </main>
+    <footer>Footer Content</footer>
+
+    <!-- Use only one <h1> element for one code sheet -->
+    <!-- SECOND DON'T -->
+    <main>
+      <div>
+        <h1>Can Coding be fun?</h1>
+        <p>The more you code the better you become</p>
+      </div>
+
+      <div>
+        <h1>Coding is fun</h1>
+        <p>It is always better when you have fun coding</p>
+      </div>
+    </main>
+
+    <!-- DO -->
+    <main>
+      <div>
+        <h1>Can coding be fun?</h1>
+        <p>The more you code the better you become</p>
+      </div>
+
+      <div>
+        <h2>Coding is fun</h2>
+        <p>It is always better when you have fun coding</p>
+      </div>
+    </main>
+
+    <!-- Do not skip heading levels in HTML -->
+    <!-- Don't use <h1> and then jump to <h3> when using header tags.
+        It's difficult for web visitors using a screen reader to understand the contents of your web page when you skip heading levels.
+        A screen reader is a technology that helps people who have difficulty seeing access and interact with digital content, like websites or applications via audio or touch.
+        The main users of screen readers are people who are blind or have very limited vision.  -->
+
+    <!-- THIRD DON'T -->
+    <h1>Coding is fun</h1>
+    <h3>It is always better when you have fun coding</h3>
+    <h5>Consistency is Key</h5>
+
+    <!-- DO -->
+    <h1>Can coding be fun?</h1>
+    <h2>The more you code the better you become</h2>
+    <h3>Coding is fun</h3>
+
+    <!-- Don't place block-level element within inline elements -->
+
+    <!-- It is important to note that:
+
+    The block-level element cannot be nested inside an inline element.
+    The inline element can be nested inside a block-level element.
+    The inline and the block-level element can be nested inside the block-level element. -->
+
+    <!-- FOURTH DON'T -->
+    <a href="#">
+      <p>Visit freecodecamp</p>
+    </a>
+    <!-- DO -->
+    <p>
+      Visit <a href="www.freecodecamp. org" target="_blank">FreecodeCamp</a>
+      to learn Javascript
+    </p>
+  </body>
+</html>
