@@ -106,18 +106,18 @@ To ensure clarity and maintainability in CSS, we follow the BEM (Block Element M
 ```css
 /* Block */
 .button {
-  background-color: blue;
+	background-color: blue;
 }
 
 /* Element */
 .button__icon {
-  width: 16px;
-  height: 16px;
+	width: 16px;
+	height: 16px;
 }
 
 /* Modifier */
 .button--large {
-  padding: 12px 24px;
+	padding: 12px 24px;
 }
 ```
 
@@ -159,7 +159,11 @@ homeworks/react_app/utils/  # Underscore instead of kebab-case
 
 ## 2. Code Quality and Tooling Setup
 
+### All further commands should be executed in the root of your repository
+
 To enforce these conventions automatically, we will use the following tools:
+
+#### Create .gitignore file in the root of your repository and add **node_modules** to that file
 
 ### 2.1 ESLint (Linting)
 
@@ -167,32 +171,35 @@ To enforce these conventions automatically, we will use the following tools:
 
 #### Installation:
 
+Press enter for all further questions while initialization
+
 ```bash
-npm install --save-dev eslint
+npm init
+```
+
+```bash
+npm init @eslint/config@latest
+```
+
+Follow this configuration:
+
+```json
+  ✔ How would you like to use ESLint? · problems
+  ✔ What type of modules does your project use? · esm
+  ✔ Which framework does your project use? · none
+  ✔ Does your project use TypeScript? · javascript
+  ✔ Where does your code run? · browser
+  The config that you've selected requires the following dependencies:
+
+  eslint, globals, @eslint/js
+  ✔ Would you like to install them now? · Yes
+  ✔ Which package manager do you want to use? · npm
 ```
 
 For React/TypeScript projects, install additional plugins:
 
 ```bash
 npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-next
-```
-
-#### Configuration (`.eslintrc.json`):
-
-```json
-{
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "react", "react-hooks", "jsx-a11y", "next"],
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:next/recommended",
-    "prettier"
-  ]
-}
 ```
 
 Run ESLint with:
@@ -215,11 +222,11 @@ npm install --save-dev prettier eslint-config-prettier
 
 ```json
 {
-  "printWidth": 100,
-  "tabWidth": 2,
-  "singleQuote": true,
-  "semi": true,
-  "trailingComma": "es5"
+	"printWidth": 100,
+	"tabWidth": 2,
+	"singleQuote": true,
+	"semi": true,
+	"trailingComma": "es5"
 }
 ```
 
@@ -237,21 +244,30 @@ npx prettier --write .
 
 ```bash
 npm install --save-dev husky lint-staged
-npx husky install
+```
+
+```bash
+npx husky init
 ```
 
 #### Setup Pre-commit Hook:
 
 ```bash
-npx husky add .husky/pre-commit "npx lint-staged"
+echo "npx lint-staged" > .husky/pre-commit
 ```
 
 #### Configure `lint-staged` (`package.json`):
 
 ```json
 "lint-staged": {
-  "**/*.{js,ts,tsx}": ["eslint --fix", "prettier --write"]
-}
+    "**/*.{js,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write ."
+    ],
+    "**/*.{html}": [
+      "prettier --write ."
+    ]
+  },
 ```
 
 Now, every time you commit, ESLint and Prettier will automatically run on the staged files.
