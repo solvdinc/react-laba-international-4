@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 HTML Basics</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <header class="description">
+            <h1>Contact Me</h1>
+        </header>
+        <section>
+            <form id="contactForm">
+                <section class="inputForm">
+                    <label for="firstName"><b>Full Name*</b></label>
+                    <input 
+                    type="text" 
+                    id="firstName" 
+                    name="firstName" 
+                    placeholder="Your first Name..."
+                    required
+                    >
+                    <input 
+                    type="text" 
+                    id="lastName" 
+                    name="lastName" 
+                    placeholder="Your last name..."
+                    required
+                    >                   
+                </section>
+                <section class="inputForm">
+                    <label for="phoneNumber"><b>Phone number*</b></label>
+                    <input
+                    type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="Your number..."
+                    required>
+                </section>
+                <section class="inputForm">
+                    <label><b>Country</b></label>
+                    <select>
+                        <option value="australia">Australia</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="china">China</option>
+                    </select>
+                </section>
+                <section>
+                    <textarea name="messageForm" id="messageForm" placeholder="Your message..."></textarea>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    <footer class="socialMediaIcon">
+        <a href="https://www.facebook.com/" target="_blank"><img src="./assets/icons/facebook-svgrepo-com.svg" alt="link to facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/icons/instagram-svgrepo-com.svg" alt="link to facebook"></a>
+        <a href="https://www.linkedin.com/in/ilan-veras-247405216/" target="_blank"><img src="./assets/icons/linkedin-rounded-svgrepo-com.svg" alt="link to facebook"></a>
+        <a href="https://x.com/"><img src="./assets/icons/twitter-154-svgrepo-com.svg" alt="link to Twitter"></a>
+    </footer>
+
+    <script>
+        console.log("Hello World")
+        const formInfo = document.getElementById("contactForm")
+
+        formInfo.addEventListener("submit", (event) => {
+            event.preventDefault()
+            console.log("Teste")
+            const firstName = document.getElementById("firstName").value
+            const lastName = document.getElementById("lastName").value
+            const phoneNumber = document.getElementById("phoneNumber").value
+            const messageForm = document.getElementById("messageForm").value
+            alert(`${firstName} ${lastName} \n${phoneNumber}\n${messageForm}`)
+        })
+    </script>
+</body>
+</html>
