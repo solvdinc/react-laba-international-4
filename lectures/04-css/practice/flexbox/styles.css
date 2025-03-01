@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.flex-item {
+	width: calc(25% - 30px);
+	background: red;
+}
+
+@media (max-width: 1080px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 768px) {
+	.flex-item {
+		width: calc(50% - 20px);
+	}
+}
+
+@media (max-width: 425px) {
+	.flex-item {
+		width: 100%;
+	}
+}

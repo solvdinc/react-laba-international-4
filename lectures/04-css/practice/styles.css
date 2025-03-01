@@ -1,0 +1,104 @@
+/* * {
+	box-sizing: border-box;
+} */
+
+/* SLIDE 2 */
+
+/* .external-css {
+	color: blue;
+	font-size: 40px;
+}
+
+.external-css.active {
+	color: red;
+} */
+
+/* .first > .second {
+	color: blue;
+	font-size: 40px;
+}
+
+#unique-id {
+	color: red;
+	font-size: 40px;
+}
+
+.first ~ .second {
+	color: purple;
+	font-size: 40px;
+}
+
+input[data-test-id='123'] {
+	color: red;
+} */
+
+/* .parent-inheritance {
+	color: blue;
+	font-size: 40px;
+	font-style: italic;
+} */
+
+/* #test-id {
+	color: green;
+}
+
+.test {
+	color: blue;
+}
+
+p {
+	color: red !important;
+} */
+
+/* .test.test {
+	color: red;
+}
+
+.test {
+	color: blue;
+} */
+
+/* .block {
+	background: red;
+}
+
+.inline {
+	background: green;
+	width: 100px;
+	height: 100px;
+	margin: 20px 0;
+	display: inline-block;
+} */
+
+/* .content-box {
+	background: red;
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+	border: 50px solid blue;
+	margin: 50px;
+}
+
+.border-box {
+	box-sizing: border-box;
+	background: red;
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+	border: 50px solid blue;
+	margin: 50px;
+} */
+
+.margin-collapse {
+	background: red;
+	width: 300px;
+	height: 300px;
+}
+
+.margin-collapse.one {
+	margin-bottom: 50px;
+}
+
+.margin-collapse.two {
+	margin-top: 100px;
+}
