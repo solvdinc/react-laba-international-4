@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #E9EBEC;
+    color: #575757;
+}
+
+.theme{
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.theme__button{
+    border: 1px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.theme__image{
+    width: 40px;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    width: 631px;
+}
+
+.profile__picture{
+}
+
+.profile__img{
+    width: 215px;
+    height: 215px;
+}
+
+.profile__info{
+    margin: 29.5px 0 29.5px 40px;
+}
+
+.profile__title{
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #3D3D3D;
+}
+
+.profile__profession{
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.social{
+    width: 222px;
+    display: flex;
+    justify-content: space-between;
+}
+.social__image{
+    width: 36px;
+    height: 36px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav__link{
+    flex: 1;
+    text-align: center;
+    margin: 38px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav__active{
+    background-color: #FBD144;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-weight: 500;
+}
+
+.details__more-info{
+    width: 148px;
+    text-align: center;
+}
+
+.details__number{
+    color: #3A3A3A;
+}
+
+.menu {
+    display: flex;
+    width: 760px; /* Garante que a seção ocupe todo o espaço possível */
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 86px;
+    margin-bottom: 76px;
+}
+
+.menu__button {
+    flex: 1;
+    text-align: center; /* Centraliza o texto */
+    padding: 15px;
+    border: none; /* Remove a borda padrão */
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 15px 23.75px;
+    background-color: #FFFFFF;
+}
+
+.menu__active{
+    background-color: #D7D7D7;
+}
+
+.gallery{
+    width: 757px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.gallery_picture{
+    /* width: 362px; */
+}
+
+.gallery__img{
+    width: 362px;
+}
+
+.footer{
+    padding: 72px 0 80px 0;
+    text-align: center;
+}
