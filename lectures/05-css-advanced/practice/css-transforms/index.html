@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transforms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>CSS Transforms Examples</h1>
+
+    <div class="example" id="translate">Translate</div>
+    <div class="example" id="rotate">Rotate</div>
+    <div class="example" id="scale">Scale</div>
+    <div class="example" id="skew">Skew</div>
+    <div class="example" id="matrix">Matrix</div>
+    <div class="example" id="perspective-container">
+      <div class="example" id="perspective">Perspective</div>
+    </div>
+    <div class="example" id="transform-origin">Transform Origin</div>
+
+    <!-- 
+    CSS Transforms allow you to modify the coordinate space of the CSS visual formatting model. 
+    CSS transforms change an element’s appearance—such as its position, size, or rotation—directly on the screen without altering the document’s underlying layout.
+    This means the space originally allocated for the element remains unchanged, so surrounding elements don’t adjust their positions in response. In effect, the visual change happens in a separate rendering layer, allowing for smooth animations and effects without triggering a complete page reflow.
+    This means you can move, rotate, scale, and skew elements in a two-dimensional or three-dimensional space. 
+    The `transform` property is used to apply these transformations.
+
+    2D Transforms:
+    1. Translate: Moves an element from its current position.
+        transform: translate(x, y);
+        - x: The horizontal displacement.
+        - y: The vertical displacement.
+
+    2. Rotate: Rotates an element around a fixed point.
+        transform: rotate(angle);
+        - angle: The angle of rotation (e.g., 45deg, 0.5turn).
+
+    3. Scale: Resizes an element.
+        transform: scale(x, y);
+        - x: The horizontal scaling factor.
+        - y: The vertical scaling factor.
+
+    4. Skew: Skews an element along the X and Y axes.
+        transform: skew(x-angle, y-angle);
+        - x-angle: The angle to skew along the X-axis.
+        - y-angle: The angle to skew along the Y-axis.
+
+    5. Matrix: Combines all 2D transform functions into one.
+        transform: matrix(a, b, c, d, e, f);
+        - a, b, c, d: Define the transformation matrix.
+        - e, f: Define the translation.
+
+    3D Transforms:
+    1. Translate3d: Moves an element in 3D space.
+        transform: translate3d(x, y, z);
+        - x: The horizontal displacement.
+        - y: The vertical displacement.
+        - z: The depth displacement.
+
+    2. Rotate3d: Rotates an element around a fixed point in 3D space.
+        transform: rotate3d(x, y, z, angle);
+        - x, y, z: Define the axis of rotation.
+        - angle: The angle of rotation.
+
+    3. Scale3d: Resizes an element in 3D space.
+        transform: scale3d(x, y, z);
+        - x: The horizontal scaling factor.
+        - y: The vertical scaling factor.
+        - z: The depth scaling factor.
+
+    4. Perspective: Applies perspective to an element.
+        transform: perspective(n);
+        - n: The distance from the viewer to the z=0 plane.
+
+    6. Transform Origin: Changes the point around which a transformation is applied.
+        transform-origin: x y;
+        - x: The horizontal position (e.g., left, center, right, or a specific length/percentage).
+        - y: The vertical position (e.g., top, center, bottom, or a specific length/percentage).
+
+    Perspective:
+    The `perspective` property is used to give a 3D-positioned element some perspective. 
+    It defines how far the object is away from the user. The lower the value, the closer the object appears, and the more pronounced the 3D effect.
+
+    Example:
+    #perspective-container {
+        perspective: 1000px;
+    }
+
+    #perspective {
+        transform: rotateY(45deg);
+    }
+
+    In this example, the `perspective-container` element sets the perspective for its child elements. 
+    The `perspective` element is rotated around the Y-axis, and the perspective effect makes it look like it is viewed from an angle.
+
+    Example:
+    #transform-origin {
+        transform: rotate(45deg);
+        transform-origin: top left;
+    }
+
+    In this example, the `transform-origin` property is set to `top left`, which means the rotation will occur around the top-left corner of the element.
+    -->
+  </body>
+</html>
