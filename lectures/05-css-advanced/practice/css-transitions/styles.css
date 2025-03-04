@@ -1,0 +1,88 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+}
+
+/* 1. Basic Transition */
+.basic-transition {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.basic-transition:hover {
+    background-color: red;
+}
+
+/* 2. Multiple Property Transition */
+.multiple-property-transition {
+    transition-property: background-color, transform;
+    transition-duration: 2s;
+}
+.multiple-property-transition:hover {
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+/* 3. Transition with Delay */
+.transition-with-delay {
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+.transition-with-delay:hover {
+    background-color: red;
+}
+
+/* 4. Different Timing Functions */
+.timing-function-linear {
+    transition: background-color 2s linear;
+}
+.timing-function-linear:hover {
+    background-color: red;
+}
+
+.timing-function-ease-in {
+    transition: background-color 2s ease-in;
+}
+.timing-function-ease-in:hover {
+    background-color: red;
+}
+
+.timing-function-ease-out {
+    transition: background-color 2s ease-out;
+}
+.timing-function-ease-out:hover {
+    background-color: red;
+}
+
+.timing-function-ease-in-out {
+    transition: background-color 2s ease-in-out;
+}
+.timing-function-ease-in-out:hover {
+    background-color: red;
+}
+
+.timing-function-cubic-bezier {
+    transition: background-color 2s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.timing-function-cubic-bezier:hover {
+    background-color: red;
+}
+
+.timing-function-steps {
+    transition: background-color 2s steps(4, end);
+}
+.timing-function-steps:hover {
+    background-color: red;
+}
+
+/* 5. Shorthand Transition for All Properties */
+.shorthand-transition {
+    transition: all 2s ease-in-out;
+}
+.shorthand-transition:hover {
+    background-color: red;
+    transform: scale(1.5);
+}

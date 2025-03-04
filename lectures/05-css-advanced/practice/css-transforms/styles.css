@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.example {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+/* Translate example */
+#translate {
+  transform: translate(50px, 50px);
+ 
+}
+
+/* Rotate example */
+#rotate {
+  transform: rotate(45deg);
+}
+
+/* Scale example */
+#scale {
+  transform: scale(1.5);
+}
+
+/* Skew example */
+#skew {
+  transform: skew(20deg, 10deg);
+}
+
+/* Matrix example */
+#matrix {
+  transform: matrix(1, 0.5, -0.5, 1, 0, 0);
+}
+
+/* Perspective container */
+#perspective-container {
+  perspective: 500px;
+}
+
+/* Perspective example */
+#perspective {
+  transform: rotateY(45deg);
+}
+
+/* Transform Origin example */
+#transform-origin {
+  transform: rotate(45deg);
+  transform-origin: top left;
+}

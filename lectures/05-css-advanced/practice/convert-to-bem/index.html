@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert to BEM</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Usual HTML -->
+    <div class="profile-card">
+      <div class="profile-header">
+        <img
+          src="https://en.bem.info/S3zKVZJcFfltyiAz-bWVmw4o3IU.svgd"
+          alt="Avatar"
+          class="avatar"
+        />
+        <h2 class="name">John Doe</h2>
+      </div>
+      <div class="profile-body">
+        <p class="bio">Web developer and designer.</p>
+      </div>
+      <div class="profile-footer">
+        <a href="#" class="social-link twitter">Twitter</a>
+        <a href="#" class="social-link linkedin">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- BEM HTML -->
+    <div class="profile-card">
+      <div class="profile-card__header">
+        <img
+          src="https://en.bem.info/S3zKVZJcFfltyiAz-bWVmw4o3IU.svgd"
+          alt="Avatar"
+          class="profile-card__avatar"
+        />
+        <h2 class="profile-card__name">John Doe</h2>
+      </div>
+      <div class="profile-card__body">
+        <p class="profile-card__bio">Web developer and designer.</p>
+      </div>
+      <div class="profile-card__footer">
+        <a href="#" class="profile-card__social profile-card__social--twitter"
+          >Twitter</a
+        >
+        <a href="#" class="profile-card__social profile-card__social--linkedin"
+          >LinkedIn</a
+        >
+      </div>
+
+      <div class="gallery">
+        <div class="gallery__list gallery__list--second">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

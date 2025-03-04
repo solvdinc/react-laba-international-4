@@ -1,0 +1,78 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  position: relative;
+}
+
+@keyframes moveBounce {
+  0%   { left: 0;   background-color: coral; }
+  50%  { left: 100px; background-color: lightseagreen; }
+  100% { left: 200px; background-color: steelblue; }
+}
+
+@keyframes moveBounceSimple {
+  0%   { left: 0; }
+  100% { left: 200px; }
+}
+
+@keyframes changeColor {
+  0%   { background-color: coral; }
+  100% { background-color: lightseagreen; }
+}
+
+.box:hover {
+  animation-play-state: paused;
+}
+
+.moveBounce {
+  animation-name: moveBounce;
+  animation-duration: 3s;
+}
+
+.moveBounceSimple {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+}
+
+.moveBounceSimpleEaseInOut {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+.moveBounceSimpleDelay {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+.moveBounceSimpleIteration {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+
+.moveBounceSimpleAlternate {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.moveBounceForwards {
+  animation-name: moveBounce;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.moveBounceSimpleRunning {
+  animation-name: moveBounceSimple;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.multipleAnimations {
+  animation: moveBounceSimple 3s infinite, changeColor 3s infinite;
+}
