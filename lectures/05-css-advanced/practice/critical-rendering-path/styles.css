@@ -1,0 +1,125 @@
+.test {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: yellow;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.test:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* non used */
+/* With usual HTML structure */
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.name {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+.profile-body {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  color: #666;
+}
+
+.profile-footer {
+  text-align: center;
+}
+
+.social-link {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-link.twitter {
+  color: #1da1f2;
+}
+
+.social-link.linkedin {
+  color: #0077b5;
+}
+
+/* With BEM */
+
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+}
+
+.profile-card__header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.profile-card__avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.profile-card__name {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+.profile-card__body {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.profile-card__bio {
+  color: #666;
+}
+
+.profile-card__footer {
+  text-align: center;
+}
+
+.profile-card__social {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-card__social--twitter {
+  color: #1da1f2;
+}
+
+.profile-card__social--linkedin {
+  color: #0077b5;
+}

@@ -40,12 +40,12 @@ You can invite them by going to your repository settings and adding them as coll
 
 ### Block 1
 
-| Day             | Theme                                              | Homework                                      |
-| :-------------- | :------------------------------------------------- | :-------------------------------------------- |
-| Feb 18th       | Internet Basics |      |
-| Feb 21th       | Git             |      |
-| Feb 25th       | HTML            |      |
-| Feb 28th       | CSS Part 1      |      |
-| March 4th      | CSS Part 2      |      |
-| March 10th-14th | Learning week   |      |
-| March 17th-21th | First block exam |     |
+| Day             | Theme            | Homework |
+| :-------------- | :--------------- | :------- |
+| Feb 18th        | Internet Basics  |          |
+| Feb 21th        | Git              |          |
+| Feb 25th        | HTML             |          |
+| Feb 28th        | CSS Part 1       |          |
+| March 4th       | CSS Part 2       |          |
+| March 7th-14th  | Learning week    |          |
+| March 17th-21th | First block exam |          |
