@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="theme">
+        <button class="theme__button" onclick="changeTheme()">
+            <img src="./assets/general-icons/Medium Brightness.svg" alt="configuration theme" class="theme__image">
+        </button>
+    </header>
+
+    <main class="container">
+        <header class="">
+            <section class="profile">
+                <section class="profile__picture">
+                    <img src="./assets/profile/profile - picture.png" alt="profile picture" class="profile__img">
+                </section>
+                <section class="profile__info">
+                    <p class="profile__title">Victor Alvarado</p>
+                    <p class="profile__profession">Software Engineer</p>
+                    <div class="social">
+                        <img src="./assets/social/github.svg" class="social__image">
+                        <img src="./assets/social/twitter.svg" class="social__image">
+                        <img src="./assets/social/linkedin.svg" class="social__image">
+                        <img src="./assets/social/youtube.svg" class="social__image">
+                    </div>
+                </section>
+            </section>
+            
+            <section class="summary">
+                <section class="details">
+                    <div class="details__more-info">
+                        <p class="details__number">7</p>
+                        <p>Years of work experience</p>
+                    </div>
+                    <div class="details__more-info">
+                        <p class="details__number">50+</p>
+                        <p>Completed projects</p>
+                    </div>
+                    <div class="details__more-info">
+                        <p class="details__number">20+</p>
+                        <p>Satisfied customers</p>
+                    </div>
+                </section>
+            </section> 
+            
+            <section class="nav">
+                <div class="nav__link nav__active">
+                    <a>Download CV <img src="./assets/general-icons/Bottom Alignment.svg"></a>
+                </div>
+                <div class="nav__link">
+                    <a>Contact me</a>
+                </div>
+            </section>
+        </header>
+
+        <section class="menu">
+            <button class="menu__button menu__active">
+                Portifolio
+            </button>
+            <button class="menu__button">
+                Skills
+            </button>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery__picture">
+                <img src="./assets/grid-images/groupe-1.png" class="gallery__img">
+            </div>
+
+            <div class="gallery__picture">
+                <img src="./assets/grid-images/groupe-2.png" alt="" class="gallery__img">
+            </div>
+
+            <div class="gallery__picture">
+                <img src="./assets/grid-images/groupe-3.png" alt="" class="gallery__img">
+            </div>
+
+            <div class=gallery__picture">
+                <img src="./assets/grid-images/groupe-4.png" alt="" class="gallery__img">
+            </div>
+
+            <div class="gallery__picture">
+                <img src="./assets/grid-images/groupe-5.png" alt="" class="gallery__img">
+            </div>
+
+            <div class="gallery__picture">
+                <img src="./assets/grid-images/groupe-6.png" alt="" class="gallery__img">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__p">© Victor Alvarado. 2022 All rigths reserved</p>
+    </footer>
+
+    <script>
+        let theme = false
+        let themeButton = document.querySelector(".theme__button")
+        let profileTitle = document.querySelector(".profile__title");
+        let detailsNumber = document.querySelectorAll(".details__number")
+        let navLink = document.querySelectorAll(".nav__link")
+        let linkActive = document.querySelector(".nav__active")
+        let menu = document.querySelector(".menu")
+        let menuButtons = document.querySelectorAll(".menu__button")
+        let menuActive = document.querySelector(".menu__active")
+        function changeTheme(){
+            theme = !theme
+            console.log(theme)
+            if(theme){
+                document.body.style.backgroundColor = '#0C151D'
+                document.body.style.color = "#A3ABB2"
+                themeButton.style.backgroundColor = "#171F26"
+                profileTitle.style.color = "#F1F2F4"
+                detailsNumber.forEach(num => num.style.color = "#A3ABB2")
+                navLink.forEach(link => link.style.backgroundColor = "#171F26")
+                linkActive.style.backgroundColor = "#FFE071"
+                linkActive.style.color = "#3D3D3D"
+                menu.style.backgroundColor = "#171F26"
+                menuButtons.forEach(button => button.style.backgroundColor = "#171F26")
+                menuButtons.forEach(button => button.style.color = "#A3ABB2")
+                menuActive.style.backgroundColor = "#0C151D"
+                console.log("escuro")
+            }else{
+                document.body.style.backgroundColor = '#E9EBEC'
+                document.body.style.color = "#575757"
+                themeButton.style.backgroundColor = "#FFFFFF"
+                profileTitle.style.color = "#3D3D3D"
+                detailsNumber.forEach(num => num.style.color = "#3D3D3D")
+                navLink.forEach(link => link.style.backgroundColor = "#FFFFFF")
+                linkActive.style.backgroundColor = "#FBD144"
+                menu.style.backgroundColor = "#FFFFFF"
+                menuButtons.forEach(button => button.style.backgroundColor = "#FFFFFF")
+                menuButtons.forEach(button => button.style.color = "#19191B")
+                menuActive.style.backgroundColor = "#D7D7D7"
+                console.log("claro")
+            }
+        }
+    </script>
+</body>
+</html>
