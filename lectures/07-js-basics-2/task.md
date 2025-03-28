@@ -1,4 +1,4 @@
-# JS basic practice
+# JS basic 2 practice
 
 Your task is to complete all of codewars katas.
 
@@ -23,4 +23,4 @@ solution() {
 ...
 ```
 
-[List is here](https://solvdportal.sharepoint.com/:w:/s/GoogleDriveSolvdLABA/ETWuK-JdEvJNnlRC-mENRawBauuqk8BR8nYAqs1jvDp2Sg?e=UZa9xk), good luck.
+[List is here](https://docs.google.com/document/d/1-a743qOYHvs7UPTM7ltDIlx_VvJX1C3rym4swDI7zRo/edit?usp=sharing), good luck.
