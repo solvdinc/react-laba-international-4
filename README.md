@@ -68,3 +68,32 @@ You can invite them by going to your repository settings and adding them as coll
 | May 2nd          | Patterns                                       | no task for this lecture|
 | May 5th - 9th    | Learning week                                  |                         |
 | May 12th - 16th  | Second block exam                              |                         |
+
+# FAQ
+
+Here you can find some useful information about our Laba processes. And you can always ask us!
+
+<details>
+<summary>What is the deadline for homework?</summary>
+
+The deadline for all homework assignments is the next lecture, unless otherwise changed by your mentor.
+
+</details>
+<br>
+
+<details>
+<summary>What are the requirements to successfully pass the exam?</summary>
+
+Your exam result depends on whether you've submitted all assignments during the block, as well as your performance in the theoretical and practical parts of the exam. Based on your results, a decision will be made on whether you proceed to the next stage.
+
+</details>
+<br>
+<details>
+<summary>What should I do if I was moved to a different group during the lab?</summary>
+
+Sometimes we need to rebalance groups after the exams. If you were moved to a different group after a block, it means you were assigned to a different mentor's group. If you have any additional questions, feel free to reach out to any of the mentors — we’re always happy to help!
+
+</details>
+
+<br>
+<br>
