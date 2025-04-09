@@ -40,34 +40,34 @@ You can invite them by going to your repository settings and adding them as coll
 
 ### Block 1
 
-| Day             | Theme            | Homework |
-| :-------------- | :--------------- | :------- |
-| Feb 18th        | Internet Basics  |          |
-| Feb 21th        | Git              |          |
-| Feb 25th        | HTML             |          |
-| Feb 28th        | CSS Part 1       |          |
-| March 4th       | CSS Part 2       |          |
-| March 7th-14th  | Learning week    |          |
-| March 17th-21th | First block exam |          |
+| Day             | Theme            | Homework                                         |
+| :-------------- | :--------------- | :----------------------------------------------- |
+| Feb 18th        | Internet Basics  | [task.md 🔗](./lectures/01-basics/task.md)       |
+| Feb 21th        | Git              | no task for this lecture                         |
+| Feb 25th        | HTML             | [task.md 🔗](./lectures/03-html-basics/task.md)  |
+| Feb 28th        | CSS Part 1       | [task.md 🔗](./lectures/04-css/task.md)          |
+| March 4th       | CSS Part 2       | [task.md 🔗](./lectures/05-css-advanced/task.md) |
+| March 7th-14th  | Learning week    |                                                  |
+| March 17th-21th | First block exam |                                                  |
 
 ### Block 2
 
-| Day              | Theme                                                                                  | Homework                                                        |
-| :--------------- | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
-| March 25th       | Javascript, Part 1                             | task 🔗      |
-| March 28th       | Javascript, Part 2                             | task 🔗      |
-| April 1st        | Javascript, Part 3                             | task 🔗      |
-| April 4th        | Javascript, Part 4                             | task 🔗      |
-| April 8th        | Javascript, Part 5                             | task 🔗      |
-| April 11th       | Javascript, DOM                                | task 🔗      |
-| April 15th       | Data structures & algorithms                   | task 🔗      |
-| April 18th       | Environment                                    | task 🔗      |
-| April 22th       | Principles                                     | no task for this lecture|
-| April 25th       | Typescript basics                              | no task for this lecture|
-| April 29th       | Typescript advanced                            | task 🔗      |
-| May 2nd          | Patterns                                       | no task for this lecture|
-| May 5th - 9th    | Learning week                                  |                         |
-| May 12th - 16th  | Second block exam                              |                         |
+| Day             | Theme                        | Homework                                          |
+| :-------------- | :--------------------------- | :------------------------------------------------ |
+| March 25th      | Javascript, Part 1           | [task.md 🔗](./lectures/06-js-basics-1/task.md)   |
+| March 28th      | Javascript, Part 2           | [task.md 🔗](./lectures/07-js-basics-2/task.md)   |
+| April 1st       | Javascript, Part 3           | [task.md 🔗](./lectures/08-js-advanced/task.md)   |
+| April 4th       | Javascript, Part 4           | [task.md 🔗](./lectures/09-js-advanced-2/task.md) |
+| April 8th       | Javascript, Part 5           | [task.md 🔗](./lectures/10-js-advanced-3/task.md) |
+| April 11th      | Javascript, DOM              | task 🔗                                           |
+| April 15th      | Data structures & algorithms | task 🔗                                           |
+| April 18th      | Environment                  | task 🔗                                           |
+| April 22th      | Principles                   | no task for this lecture                          |
+| April 25th      | Typescript basics            | no task for this lecture                          |
+| April 29th      | Typescript advanced          | task 🔗                                           |
+| May 2nd         | Patterns                     | no task for this lecture                          |
+| May 5th - 9th   | Learning week                |                                                   |
+| May 12th - 16th | Second block exam            |                                                   |
 
 # FAQ
 
