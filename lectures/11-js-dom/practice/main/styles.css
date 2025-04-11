@@ -1,0 +1,20 @@
+.sizing-1 {
+	box-sizing: border-box;
+	width: 500px;
+	height: 500px;
+	background: red;
+	padding: 20px;
+	border: 20px solid purple;
+}
+
+.sizing-2 {
+	border: 20px solid purple;
+	box-sizing: border-box;
+	background: rgba(145, 120, 120, 0.6);
+	margin-top: 50px;
+	width: 50px;
+	width: 500px;
+	height: 500px;
+	overflow: auto;
+	padding: 20px;
+}

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 500vh;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+  background: red;
+  padding: 40px;
+  border: 20px solid green;
+  overflow: auto;
+}
+
+.box__content {
+  height: 1400px;
+  width: 100%;
+  background: blue;
+}

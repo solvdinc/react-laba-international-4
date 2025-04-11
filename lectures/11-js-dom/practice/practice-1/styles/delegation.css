@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.playground {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell-item {
+  width: 33.3333%;
+  height: 200px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

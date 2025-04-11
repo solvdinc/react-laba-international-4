@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- EXAMPLE 1 DOMContentLoaded -->
+    <!-- <script>
+      function ready() {
+        alert('DOM is ready');
+
+        // image is not yet loaded (unless it was cached), so the size is 0x0
+        alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
+      }
+
+      document.addEventListener('DOMContentLoaded', ready);
+    </script>
+
+    <img id="img" src="https://en.js.cx/clipart/train.gif" /> -->
+
+    <!-- EXAMPLE 1 DOMContentLoaded -->
+
+    <!-- EXAMPLE 2 DOMContentLoaded and scripts -->
+
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        alert('DOM ready!');
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+
+    <script>
+      alert('Library loaded, inline script executed');
+    </script> -->
+
+    <!-- EXAMPLE 2 DOMContentLoaded and scripts -->
+
+    <!-- EXAMPLE 3 DOMContentLoaded and scripts -->
+
+    <!-- <link type="text/css" rel="stylesheet" href="style.css" />
+    <script>
+      // the script doesn't execute until the stylesheet is loaded
+      alert(getComputedStyle(document.body).marginTop);
+    </script> -->
+
+    <!-- EXAMPLE 3 DOMContentLoaded and scripts -->
+
+    <!-- EXAMPLE 4 window.onload -->
+    <!-- <script>
+      window.onload = function () {
+        // can also use window.addEventListener('load', (event) => {
+        alert('Page loaded');
+
+        // image is loaded at this time
+        alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
+      };
+    </script>
+
+    <img id="img" src="https://en.js.cx/clipart/train.gif" /> -->
+
+    <!-- EXAMPLE 4 window.onload -->
+
+    <!-- EXAMPLE 5 window.onbeforeunload -->
+    <script>
+      window.onbeforeunload = function () {
+        console.log(1111);
+        return false;
+      };
+    </script>
+
+    <!-- EXAMPLE 5 window.onbeforeunload -->
+
+    <!-- EXAMPLE 7 defer -->
+
+    <!-- <p>...content before scripts...</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => alert('DOM ready after defer!'));
+    </script>
+
+    <script defer src="https://javascript.info/article/script-async-defer/long.js?speed=1"></script>
+    #ordering
+    <script defer src="https://javascript.info/article/script-async-defer/small.js"></script>
+
+    <p>...content after scripts...</p> -->
+
+    <!-- EXAMPLE 7 defer -->
+
+    <!-- EXAMPLE 8 async -->
+    <!-- <p>...content before scripts...</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => alert('DOM ready!'));
+    </script>
+
+    <script async src="https://javascript.info/article/script-async-defer/long.js"></script>
+    <script async src="https://javascript.info/article/script-async-defer/small.js"></script>
+
+    <p>...content after scripts...</p> -->
+
+    <!-- EXAMPLE 8 async -->
+
+    <!-- EXAMPLE 9 dynamic -->
+    <!-- <script>
+      function loadScript(src) {
+        let script = document.createElement('script');
+        script.src = src;
+        document.body.append(script);
+        alert(src);
+      }
+
+      loadScript('/article/script-async-defer/long.js');
+      loadScript('/article/script-async-defer/small.js');
+    </script> -->
+    <!-- EXAMPLE 9 dynamic -->
+
+    <!-- EXAMPLE 10 Resource loading: onload and onerror -->
+    <!-- <script>
+      let script = document.createElement('script');
+
+      // can load any script, from any domain
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js';
+      document.head.append(script);
+
+      script.onload = function () {
+        // the script creates a variable "_"–
+        alert(_.VERSION); // shows library version
+      };
+      script.onerror = function () {
+        alert('Error loading ' + this.src);
+      };
+    </script> -->
+    <!-- EXAMPLE 10 Resource loading: onload and onerror -->
+  </body>
+</html>

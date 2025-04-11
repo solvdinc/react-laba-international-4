@@ -1,0 +1,190 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script/1-navigation.js" defer></script>
+    <script src="script/2-node-properties.js" defer></script>
+    <script src="script/3-attributes.js" defer></script>
+    <script src="script/4-modifying.js" defer></script>
+    <script src="script/5-classes.js" defer></script>
+  </head>
+  <body>
+    <!--SCROLL TO TOP BLOCK-->
+    <a href="#top" class="scroll-up-button">
+      <img
+        class="scroll-up-button__icon"
+        src="./assets/icons/upIcon.png"
+        alt="Up arrow icon"
+    /></a>
+
+    <!--SETTINGS BLOCK-->
+    <header class="settings" id="top">
+      <div class="settings__color-mode-button">
+        <img
+          class="settings__img"
+          src="./assets/icons/colorMode.svg"
+          alt="Change color mode icon"
+        />
+      </div>
+    </header>
+
+    <section class="profile">
+      <!--PROFILE INFO BLOCK-->
+      <div class="profile-info">
+        <div class="profile-info__img-container">
+          <img
+            class="profile-info__img"
+            src="./assets/images/userImg.png"
+            alt=""
+          />
+        </div>
+        <!--USER DATA BLOCK-->
+        <div class="user-data">
+          <h1 class="user-data__name">Victor Alvarado</h1>
+          <h2 class="user-data__position">Software Engineer</h2>
+          <!--SOCIAL MEDIA BLOCK-->
+          <div class="social-media">
+            <a
+              class="social-media__icon"
+              href="https://github.com/"
+              target="blank"
+            >
+              <img
+                class="social-media__img"
+                src="./assets/icons/github.svg"
+                alt="GitHub Icon"
+              />
+            </a>
+            <a
+              class="social-media__icon"
+              href="https://twitter.com/"
+              target="blank"
+            >
+              <img
+                class="social-media__img"
+                src="./assets/icons/twitter.svg"
+                alt="Twitter icon"
+              />
+            </a>
+            <a
+              class="social-media__icon"
+              href="https://www.linkedin.com/"
+              target="blank"
+            >
+              <img
+                class="social-media__img"
+                src="./assets/icons/linkedIn.svg"
+                alt="Linked In icon"
+              />
+            </a>
+            <a
+              class="social-media__icon"
+              href="https://www.youtube.com/"
+              target="blank"
+            >
+              <img
+                class="social-media__img"
+                src="./assets/icons/youtube.svg"
+                alt="YouTube icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--PROFILE FACTS BLOCK-->
+      <div class="profile-facts">
+        <p class="profile-facts__item">
+          <span class="profile-facts__number">7</span><br />Years of work
+          experience
+        </p>
+        <p class="profile-facts__item">
+          <span class="profile-facts__number">50+</span><br />Completed projects
+        </p>
+        <p class="profile-facts__item">
+          <span class="profile-facts__number">20+</span><br />Satisfied
+          customers
+        </p>
+      </div>
+
+      <!--PROFILE BUTTONS BLOCK-->
+      <div class="profile-buttons">
+        <!--CV BUTTON BLOCK-->
+        <div class="cv-button">
+          <p class="cv-button__text">Download CV</p>
+          <img
+            class="cv-button__download-icon"
+            src="./assets/icons/downloadArrow.png"
+            alt="Download icon"
+          />
+        </div>
+        <!--CONTACT BUTTON BLOCK-->
+        <div class="contact-button">
+          <p class="contact-button__text">Contact me</p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!--TAB BUTTONS BLOCK-->
+      <div class="tabs-buttons">
+        <button
+          class="tabs-buttons__option tabs-buttons__selected"
+          data-tab="Portfolio12323"
+        >
+          Portfolio
+        </button>
+        <button class="tabs-buttons__option" data-tab="Skills">Skills</button>
+      </div>
+
+      <!--TAB CONTENT BLOCK-->
+      <div class="tab-content">
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project2.png"
+          alt="pic2"
+        />
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project1.png"
+          alt="pic1"
+        />
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project3.png"
+          alt="pic3"
+        />
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project4.png"
+          alt="pic4"
+        />
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project5.png"
+          alt="pic5"
+        />
+        <img
+          class="tab-content__img"
+          src="./assets/images/Project6.png"
+          alt="pic6"
+        />
+      </div>
+    </main>
+    <!--FOOTER BLOCK-->
+    <footer class="footer">
+      <p class="footer__text">© Victor Alvarado. 2022 All rigths reserved</p>
+    </footer>
+  </body>
+</html>

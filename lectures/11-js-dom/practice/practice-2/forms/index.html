@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- EXAMPLE 1  Navigation: form and elements-->
+    <form name="my">
+      <input name="one" value="1" />
+      <input name="two" value="2" />
+    </form>
+
+    <form name="test">
+      <input name="one" value="1" />
+      <input name="two" value="2" />
+    </form>
+    <script>
+      // get the form
+      let form = document.forms.my; // <form name="my"> element
+      console.log('form', form);
+      // get the element
+      let elem = form.elements.one.value; // <input name="one"> element
+      console.log('elem', elem);
+
+      //   alert(elem.value); // 1
+    </script>
+
+    <!-- EXAMPLE 1  Navigation: form and elements-->
+
+    <!-- EXAMPLE 2  Backreference: element.form -->
+    <!-- <form id="form">
+      <input type="text" name="login" />
+    </form>
+
+    <script>
+      // form -> element
+      let login = form.login;
+      console.log('login', login.form);
+    </script> -->
+
+    <!-- EXAMPLE 2  Backreference: element.form -->
+
+    <!-- EXAMPLE 3  Events focus/blur -->
+    <!-- <style>
+      .invalid {
+        border-color: red;
+      }
+      #error {
+        color: red;
+      }
+    </style>
+
+    Your email please: <input type="email" id="input" />
+
+    <div id="error"></div>
+
+    <script>
+      input.onblur = function () {
+        if (!input.value.includes('@')) {
+          // not email
+          input.classList.add('invalid');
+          error.innerHTML = 'Please enter a correct email.';
+        }
+      };
+
+      input.onfocus = function () {
+        if (this.classList.contains('invalid')) {
+          // remove the "error" indication, because the user wants to re-enter something
+          this.classList.remove('invalid');
+          error.innerHTML = '';
+        }
+      };
+    </script> -->
+    <!-- EXAMPLE 3  Events focus/blur -->
+
+    <!-- EXAMPLE 4  Methods focus/blur -->
+    <!-- <style>
+      .error {
+        background: red;
+      }
+    </style>
+
+    Your email please: <input type="email" id="input" />
+    <input type="text" style="width: 220px" placeholder="make email invalid and try to focus here" />
+
+    <script>
+      input.onblur = function () {
+        if (!this.value.includes('@')) {
+          // not email
+          // show the error
+          this.classList.add('error');
+          // ...and put the focus back
+          input.focus();
+        } else {
+          this.classList.remove('error');
+        }
+      };
+    </script> -->
+
+    <!-- EXAMPLE 4  Methods focus/blur -->
+
+    <!-- EXAMPLE 5  Delegation: focusin/focusout -->
+
+    <!-- <form id="form">
+      <input type="text" name="name" value="Name" />
+      <input type="text" name="surname" value="Surname" />
+    </form>
+
+    <style>
+      .focused {
+        outline: 1px solid red;
+      }
+    </style>
+
+    <script>
+      form.addEventListener('focusin', () => form.classList.add('focused'));
+      form.addEventListener('focusout', () => form.classList.remove('focused'));
+    </script> -->
+    <!-- EXAMPLE 5  Delegation: focusin/focusout -->
+
+    <!-- EXAMPLE 6 Events -->
+    <!-- <input type="text" onchange="alert(this.value)" />
+    <input type="button" value="Button" />
+
+    <select onchange="alert(this.value)">
+      <option value="">Select something</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+
+    <input type="text" id="input" /> oninput: <span id="result"></span>
+    <script>
+      input.oninput = function () {
+        result.innerHTML = input.value;
+      };
+    </script> -->
+
+    <!-- <input type="text" id="input" />
+    <script>
+      input.onpaste = function (event) {
+        alert('paste: ' + event.clipboardData.getData('text/plain'));
+        // event.preventDefault();
+      };
+
+      input.oncut = input.oncopy = function (event) {
+        alert(event.type + '-' + document.getSelection());
+        // event.preventDefault();
+      };
+    </script>
+    <!-- EXAMPLE 6 Events -->
+
+    <!-- EXAMPLE 7 Events -->
+    <!-- <form onsubmit="alert('submit!');return false">
+      First: Enter in the input field <input type="text" value="text" /><br />
+      Second: Click "submit": <input type="submit" value="Submit" />
+    </form> -->
+    <!-- EXAMPLE 7 Events -->
+    <!-- <input type="text" id="input" />
+    <script>
+      input.onpaste = function (event) {
+        alert('paste: ' + event.clipboardData.getData('text/plain'));
+        // event.preventDefault();
+      };
+
+      input.oncut = input.oncopy = function (event) {
+        alert(event.type + '-' + document.getSelection());
+        // event.preventDefault();
+      };
+    </script> -->
+  </body>
+</html>
