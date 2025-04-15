@@ -52,22 +52,22 @@ You can invite them by going to your repository settings and adding them as coll
 
 ### Block 2
 
-| Day             | Theme                        | Homework                                          |
-| :-------------- | :--------------------------- | :------------------------------------------------ |
-| March 25th      | Javascript, Part 1           | [task.md 🔗](./lectures/06-js-basics-1/task.md)   |
-| March 28th      | Javascript, Part 2           | [task.md 🔗](./lectures/07-js-basics-2/task.md)   |
-| April 1st       | Javascript, Part 3           | [task.md 🔗](./lectures/08-js-advanced/task.md)   |
-| April 4th       | Javascript, Part 4           | [task.md 🔗](./lectures/09-js-advanced-2/task.md) |
-| April 8th       | Javascript, Part 5           | [task.md 🔗](./lectures/10-js-advanced-3/task.md) |
-| April 11th      | Javascript, DOM              | task 🔗                                           |
-| April 15th      | Data structures & algorithms | task 🔗                                           |
-| April 18th      | Environment                  | task 🔗                                           |
-| April 22th      | Principles                   | no task for this lecture                          |
-| April 25th      | Typescript basics            | no task for this lecture                          |
-| April 29th      | Typescript advanced          | task 🔗                                           |
-| May 2nd         | Patterns                     | no task for this lecture                          |
-| May 5th - 9th   | Learning week                |                                                   |
-| May 12th - 16th | Second block exam            |                                                   |
+| Day             | Theme                        | Homework                                                           |
+| :-------------- | :--------------------------- | :----------------------------------------------------------------- |
+| March 25th      | Javascript, Part 1           | [task.md 🔗](./lectures/06-js-basics-1/task.md)                    |
+| March 28th      | Javascript, Part 2           | [task.md 🔗](./lectures/07-js-basics-2/task.md)                    |
+| April 1st       | Javascript, Part 3           | [task.md 🔗](./lectures/08-js-advanced/task.md)                    |
+| April 4th       | Javascript, Part 4           | [task.md 🔗](./lectures/09-js-advanced-2/task.md)                  |
+| April 8th       | Javascript, Part 5           | [task.md 🔗](./lectures/10-js-advanced-3/task.md)                  |
+| April 11th      | Javascript, DOM              | [task.md 🔗](./lectures/11-js-dom/task.md)                         |
+| April 15th      | Data structures & algorithms | [task.md 🔗](./lectures/12-data-structures-and-algorithms/task.md) |
+| April 18th      | Environment                  | task 🔗                                                            |
+| April 22th      | Principles                   | no task for this lecture                                           |
+| April 25th      | Typescript basics            | no task for this lecture                                           |
+| April 29th      | Typescript advanced          | task 🔗                                                            |
+| May 2nd         | Patterns                     | no task for this lecture                                           |
+| May 5th - 9th   | Learning week                |                                                                    |
+| May 12th - 16th | Second block exam            |                                                                    |
 
 # FAQ
 
@@ -76,7 +76,8 @@ Here you can find some useful information about our Laba processes. And you can 
 <details>
 <summary>What is the deadline for homework?</summary>
 
-The deadline for all homework assignments is the next lecture, unless otherwise changed by your mentor.
+The deadline for all homework assignments is the next lecture, unless otherwise changed by your
+mentor.
 
 </details>
 <br>
@@ -84,14 +85,18 @@ The deadline for all homework assignments is the next lecture, unless otherwise 
 <details>
 <summary>What are the requirements to successfully pass the exam?</summary>
 
-Your exam result depends on whether you've submitted all assignments during the block, as well as your performance in the theoretical and practical parts of the exam. Based on your results, a decision will be made on whether you proceed to the next stage.
+Your exam result depends on whether you've submitted all assignments during the block, as well as
+your performance in the theoretical and practical parts of the exam. Based on your results, a
+decision will be made on whether you proceed to the next stage.
 
 </details>
 <br>
 <details>
 <summary>What should I do if I was moved to a different group during the lab?</summary>
 
-Sometimes we need to rebalance groups after the exams. If you were moved to a different group after a block, it means you were assigned to a different mentor's group. If you have any additional questions, feel free to reach out to any of the mentors — we’re always happy to help!
+Sometimes we need to rebalance groups after the exams. If you were moved to a different group after
+a block, it means you were assigned to a different mentor's group. If you have any additional
+questions, feel free to reach out to any of the mentors — we’re always happy to help!
 
 </details>
 
