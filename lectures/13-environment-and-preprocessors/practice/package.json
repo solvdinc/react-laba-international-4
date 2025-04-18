@@ -1,0 +1,20 @@
+{
+  "name": "arg-laba",
+  "version": "1.0.1",
+  "description": "test npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:build": "sass styles.scss styles.css",
+    "sass:watch": "sass styles.scss styles.css --watch"
+  },
+  "keywords": [
+    "laba",
+    "study"
+  ],
+  "author": "Mike",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.3"
+  }
+}

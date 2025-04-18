@@ -1,0 +1,9 @@
+.container .nested .text {
+  color: red;
+  background-color: blue;
+}
+.container .nested .phone {
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */

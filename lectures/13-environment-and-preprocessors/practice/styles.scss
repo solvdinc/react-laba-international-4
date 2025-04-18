@@ -1,0 +1,12 @@
+.container {
+  .nested {
+    .text {
+      color: red;
+      background-color: blue;
+    }
+
+    .phone {
+      color: green;
+    }
+  }
+}
