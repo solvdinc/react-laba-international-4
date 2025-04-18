@@ -61,7 +61,7 @@ You can invite them by going to your repository settings and adding them as coll
 | April 8th       | Javascript, Part 5           | [task.md 🔗](./lectures/10-js-advanced-3/task.md)                  |
 | April 11th      | Javascript, DOM              | [task.md 🔗](./lectures/11-js-dom/task.md)                         |
 | April 15th      | Data structures & algorithms | [task.md 🔗](./lectures/12-data-structures-and-algorithms/task.md) |
-| April 18th      | Environment                  | task 🔗                                                            |
+| April 18th      | Environment                  | [task 🔗](./lectures/13-environment-and-preprocessors/task.md)     |
 | April 22th      | Principles                   | no task for this lecture                                           |
 | April 25th      | Typescript basics            | no task for this lecture                                           |
 | April 29th      | Typescript advanced          | task 🔗                                                            |
