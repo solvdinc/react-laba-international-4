@@ -53,7 +53,7 @@ You can invite them by going to your repository settings and adding them as coll
 ### Block 2
 
 | Day             | Theme                        | Homework                                                           |
-| :-------------- | :--------------------------- | :----------------------------------------------------------------- |
+| :-------------- | :--------------------------- |:-------------------------------------------------------------------|
 | March 25th      | Javascript, Part 1           | [task.md 🔗](./lectures/06-js-basics-1/task.md)                    |
 | March 28th      | Javascript, Part 2           | [task.md 🔗](./lectures/07-js-basics-2/task.md)                    |
 | April 1st       | Javascript, Part 3           | [task.md 🔗](./lectures/08-js-advanced/task.md)                    |
@@ -64,7 +64,7 @@ You can invite them by going to your repository settings and adding them as coll
 | April 18th      | Environment                  | [task.md 🔗](./lectures/13-environment-and-preprocessors/task.md)  |
 | April 22th      | Principles                   | no task for this lecture                                           |
 | April 25th      | Typescript basics            | no task for this lecture                                           |
-| April 29th      | Typescript advanced          | task 🔗                                                            |
+| April 29th      | Typescript advanced          | [task.md 🔗](./lectures/16-typescript-advanced/task.md)            |
 | May 2nd         | Patterns                     | no task for this lecture                                           |
 | May 5th - 9th   | Learning week                |                                                                    |
 | May 12th - 16th | Second block exam            |                                                                    |
