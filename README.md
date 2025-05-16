@@ -69,6 +69,24 @@ You can invite them by going to your repository settings and adding them as coll
 | May 5th - 9th   | Learning week                |                                                                    |
 | May 12th - 16th | Second block exam            |                                                                    |
 
+### Block 3
+
+| Day                | Theme                                               | Homework             |
+| :----------------- | :------------------------------------------------- | :------------------- |
+| May 20th           | Overview of React library. React basics             | task 🔗              |
+| May 23rd           | React UI. Managing State.                           | task 🔗              |
+| May 27th           | Overview of Hooks                                   | task 🔗              |
+| May 30th           | React API                                           | task 🔗              |
+| June 3rd           | Overview of web application, key points. Next.js    | task 🔗              |
+| June 6th           | Next.js. Key features.                              | no task for this lecture |
+| June 10th          | Next.js. App Router.                                | no task for this lecture |
+| June 13th          | Testing                                             | task 🔗              |
+| June 17th          | React State Management Workshop.                    | no task for this lecture |
+| June 20th          | UI Libraries Workshop.                              | no task for this lecture |
+| June 23rd - 27th   | Learning weeks. Finishing homeworks/preparing for exam. |                    |
+| June 30th - July 4th | Third block exam.                                |                      |
+
+
 # FAQ
 
 Here you can find some useful information about our Laba processes. And you can always ask us!
