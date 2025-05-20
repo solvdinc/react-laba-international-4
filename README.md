@@ -53,7 +53,7 @@ You can invite them by going to your repository settings and adding them as coll
 ### Block 2
 
 | Day             | Theme                        | Homework                                                           |
-| :-------------- | :--------------------------- |:-------------------------------------------------------------------|
+| :-------------- | :--------------------------- | :----------------------------------------------------------------- |
 | March 25th      | Javascript, Part 1           | [task.md 🔗](./lectures/06-js-basics-1/task.md)                    |
 | March 28th      | Javascript, Part 2           | [task.md 🔗](./lectures/07-js-basics-2/task.md)                    |
 | April 1st       | Javascript, Part 3           | [task.md 🔗](./lectures/08-js-advanced/task.md)                    |
@@ -71,21 +71,20 @@ You can invite them by going to your repository settings and adding them as coll
 
 ### Block 3
 
-| Day                | Theme                                               | Homework             |
-| :----------------- | :------------------------------------------------- | :------------------- |
-| May 20th           | Overview of React library. React basics             | task 🔗              |
-| May 23rd           | React UI. Managing State.                           | task 🔗              |
-| May 27th           | Overview of Hooks                                   | task 🔗              |
-| May 30th           | React API                                           | task 🔗              |
-| June 3rd           | Overview of web application, key points. Next.js    | task 🔗              |
-| June 6th           | Next.js. Key features.                              | no task for this lecture |
-| June 10th          | Next.js. App Router.                                | no task for this lecture |
-| June 13th          | Testing                                             | task 🔗              |
-| June 17th          | React State Management Workshop.                    | no task for this lecture |
-| June 20th          | UI Libraries Workshop.                              | no task for this lecture |
-| June 23rd - 27th   | Learning weeks. Finishing homeworks/preparing for exam. |                    |
-| June 30th - July 4th | Third block exam.                                |                      |
-
+| Day                  | Theme                                                   | Homework                                         |
+| :------------------- | :------------------------------------------------------ | :----------------------------------------------- |
+| May 20th             | Overview of React library. React basics                 | [task.md 🔗](./lectures/18-react-basics/task.md) |
+| May 23rd             | React UI. Managing State.                               | task 🔗                                          |
+| May 27th             | Overview of Hooks                                       | task 🔗                                          |
+| May 30th             | React API                                               | task 🔗                                          |
+| June 3rd             | Overview of web application, key points. Next.js        | task 🔗                                          |
+| June 6th             | Next.js. Key features.                                  | no task for this lecture                         |
+| June 10th            | Next.js. App Router.                                    | no task for this lecture                         |
+| June 13th            | Testing                                                 | task 🔗                                          |
+| June 17th            | React State Management Workshop.                        | no task for this lecture                         |
+| June 20th            | UI Libraries Workshop.                                  | no task for this lecture                         |
+| June 23rd - 27th     | Learning weeks. Finishing homeworks/preparing for exam. |                                                  |
+| June 30th - July 4th | Third block exam.                                       |                                                  |
 
 # FAQ
 
