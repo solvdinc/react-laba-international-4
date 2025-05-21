@@ -2,7 +2,7 @@
 
 Here's you can find materials about "React Basics"
 
-[Presentation](https://solvdportal.sharepoint.com/:p:/r/sites/GoogleDriveSolvdLABA/_layouts/15/Doc.aspx?sourcedoc=%7B79624943-B65A-4C4E-8687-72A489C315FC%7D&file=React%20basics%202025.pptx&action=edit&mobileredirect=true)
+[Presentation](https://solvdportal.sharepoint.com/:p:/s/GoogleDriveSolvdLABA/EUNJYnlatk5MhodypInDFfwBpFvN7LNayg3Wwyx9vFcH0Q?e=zqRK6e&nav=eyJzSWQiOjIxNDczNzUyNTcsImNJZCI6MTYyMzg1MDAwOH0)
 
 [Video](https://solvdportal-my.sharepoint.com/personal/laba_solvd_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Flaba%5Fsolvd%5Fcom%2FDocuments%2FRecordings%2FDevelopment%2DReact%2Ejs%2D2025%2D01%2D20250520%5F150542%2DMeeting%20Recording%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E02bcd9f8%2D3bba%2D46e2%2Db11b%2D9208aee8938b)
 
