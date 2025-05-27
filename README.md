@@ -74,8 +74,8 @@ You can invite them by going to your repository settings and adding them as coll
 | Day                  | Theme                                                   | Homework                                         |
 | :------------------- | :------------------------------------------------------ | :----------------------------------------------- |
 | May 20th             | Overview of React library. React basics                 | [task.md 🔗](./lectures/18-react-basics/task.md) |
-| May 23rd             | React UI. Managing State.                               | task 🔗                                          |
-| May 27th             | Overview of Hooks                                       | task 🔗                                          |
+| May 23rd             | React UI. Managing State.                               | [task.md 🔗](./lectures/19-react-ui/task.md)     |
+| May 27th             | Overview of Hooks                                       | [task.md 🔗](./lectures/20-react-hooks/task.md)  |
 | May 30th             | React API                                               | task 🔗                                          |
 | June 3rd             | Overview of web application, key points. Next.js        | task 🔗                                          |
 | June 6th             | Next.js. Key features.                                  | no task for this lecture                         |
