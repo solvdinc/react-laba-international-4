@@ -1,0 +1,28 @@
+.tasksContainer {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	background-color: #f0f0f0;
+	gap: 15px;
+}
+
+.taskItem {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: calc(33.33333% - 10px);
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.taskItem:hover {
+	transform: scale(1.05);
+	transition: transform 0.3s ease-in-out;
+}
+
+.taskLink {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
