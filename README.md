@@ -79,8 +79,8 @@ You can invite them by going to your repository settings and adding them as coll
 | May 30th             | React API                                               | [task.md 🔗](./lectures/21-react-api/task.md)    |
 | June 3rd             | Overview of web application, key points. Next.js        | [task.md 🔗](./lectures/22-nextjs-1/task.md)     |
 | June 6th             | Next.js. Key features.                                  | [task.md 🔗](./lectures/23-nextjs-2/task.md)     |
-| June 10th            | Next.js. App Router.                                    | no task for this lecture                         |
-| June 13th            | Testing                                                 | task 🔗                                          |
+| June 10th            | Next.js. App Router.                                    | [task.md 🔗](./lectures/24-next-js-3/task.md)    |
+| June 13th            | Testing                                                 | [task.md 🔗](./lectures/25-testing/task.md)      |
 | June 17th            | React State Management Workshop.                        | no task for this lecture                         |
 | June 20th            | UI Libraries Workshop.                                  | no task for this lecture                         |
 | June 23rd - 27th     | Learning weeks. Finishing homeworks/preparing for exam. |                                                  |
