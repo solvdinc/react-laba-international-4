@@ -86,6 +86,17 @@ You can invite them by going to your repository settings and adding them as coll
 | June 23rd - 27th     | Learning weeks. Finishing homeworks/preparing for exam. |                                                  |
 | June 30th - July 4th | Third block exam.                                       |                                                  |
 
+
+### Block 4
+
+| Day                            | Theme                                                                                     | Homework |
+| :----------------------------- | :-----------------------------------------| :-------------------------------------------- |
+| July 17th                      | Project management basics                 | no task for this lecture                      |
+| July 14th - August 29th        | Project development                       |                                               |
+| September 1st - September 12th | Project demos                             |                                               |
+| September 15th - 19th          | Final interviews                          |                                               |
+
+
 # FAQ
 
 Here you can find some useful information about our Laba processes. And you can always ask us!
